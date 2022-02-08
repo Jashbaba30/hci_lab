@@ -1,0 +1,20 @@
+.navbar {
+  width: 100%;
+  display: flex;
+
+  border-bottom: 1px solid gray;
+  flex-direction: row-reverse;
+}
+
+.nav_button {
+  color: darkslategray;
+  font-weight: 500;
+  margin-right: 15px;
+  padding: 10px 7px;
+}
+
+.nav_button:hover {
+  color: white;
+  background-color: darkslategray;
+  cursor: grab;
+}
